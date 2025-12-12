@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLSU Vibe 101.5 FM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+  <header class="header">
+    <h1>CLSU Vibe 101.5 FM</h1>
+    <p>Your campus radio station</p>
+  </header>
+
+  <!-- Video Section -->
+  <div class="video-container" id="videoContainer">
+    <!-- Replace this placeholder with a direct image URL for your thumbnail -->
+    <img class="thumbnail" id="thumbnail" src="https://via.placeholder.com/800x450.png?text=Tap+to+Play+Your+Video" alt="Video Thumbnail">
+    <div class="play-button" id="playButton">▶</div>
+
+    <!-- Streamable embed (replace with your show/video link if needed) -->
+    <iframe id="video" src="https://streamable.com/e/s9mlsm" allowfullscreen scrolling="no" frameborder="0"></iframe>
+  </div>
+
+  <!-- Audio player (hidden on mobile design until configured) -->
+  <audio id="liveStream" controls preload="none" style="width:100%;max-width:900px;display:block;margin:16px auto;">
+    <source src="" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Schedule Section -->
+  <section class="section schedule">
+    <h2>Today's Schedule</h2>
+    <ul>
+      <li>6:00 AM - 9:00 AM: Morning Drive</li>
+      <li>9:00 AM - 12:00 PM: Campus Updates</li>
+      <li>12:00 PM - 2:00 PM: Music Hour</li>
+      <li>2:00 PM - 5:00 PM: Talk Shows</li>
+      <li>5:00 PM - 8:00 PM: Evening Hits</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:clsu.vibe1015fm@example.com">clsu.vibe1015fm@example.com</a></p>
+    <p>Follow us on social media: <a href="#">@CLSUVibe1015FM</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 CLSU Vibe 101.5 FM</p>
+  </footer>
+
+  <script src="app.js"></script>
+  </body>
+  </html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CLSU Vibe 101.5 FM — Radio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>CLSU Vibe 101.5 FM</h1>
+        <p class="tag">Live radio, daily schedule, and on-demand shows</p>
+      </header>
+
+      <section class="player">
+        <div class="video-thumb" id="videoThumb">
+          <button class="play" id="playBtn">▶ Play Live</button>
+        </div>
+        <audio id="liveStream" controls preload="none">
+          <source src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section class="schedule">
+        <h2>Daily Schedule</h2>
+        <ul id="scheduleList">
+          <li><strong>06:00 - 09:00</strong> Morning Drive</li>
+          <li><strong>09:00 - 12:00</strong> Midmorning Mix</li>
+          <li><strong>12:00 - 14:00</strong> Lunchtime Live</li>
+          <li><strong>14:00 - 17:00</strong> Afternoon Groove</li>
+          <li><strong>17:00 - 20:00</strong> Evening Chill</li>
+        </ul>
+      </section>
+
+      <section class="embed">
+        <h2>Watch Live</h2>
+        <div class="embedWrap">
+          <iframe id="ytPlayer" width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UC4V8M9gZlg3H9uGAVH9yH0Q" title="YouTube live" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:radio@clsu.edu.ph">radio@clsu.edu.ph</a></p>
+        <p>Social: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+      </section>
+
+      <footer class="footer">© CLSU Vibe 101.5 FM</footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
