@@ -3,7 +3,7 @@ CLSU Vibe 101.5 FM is a mobile-friendly radio site. This repo now includes a sim
 
 Quick start
 
-- Edit `index.html`, `styles.css`, or `app.js` to customize the site. Replace the placeholder stream URL inside `app.js` with your station's MP3/AAC stream URL (put it in `defaultStream`).
+- Edit `index.html`, `styles.css`, or `app.js` to customize the site. Replace the placeholder stream URL inside `app.js` with your station's MP3/AAC stream URL (put it in `defaultStream`). If you are embedding a live video or Streamable/YouTube stream, update the `iframe` `src` attribute in `index.html`.
 - Preview locally with a simple static server, for example:
 
 ```bash
